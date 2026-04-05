@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git)",
+      "Bash(npm install:*)",
+      "Bash(mkdir -p c:/Users/rense/OneDrive/Desktop/PlayGround/Myapps/myrpg-app/src/types)",
+      "Bash(mkdir -p c:/Users/rense/OneDrive/Desktop/PlayGround/Myapps/myrpg-app/src/lib/supabase)",
+      "Bash(mkdir -p c:/Users/rense/OneDrive/Desktop/PlayGround/Myapps/myrpg-app/src/lib/game)",
+      "Bash(mkdir -p c:/Users/rense/OneDrive/Desktop/PlayGround/Myapps/myrpg-app/src/components/auth)",
+      "Bash(mkdir -p c:/Users/rense/OneDrive/Desktop/PlayGround/Myapps/myrpg-app/src/components/character)",
+      "Bash(npm run:*)",
+      "Bash(ls *.config*)",
+      "Bash(node -e \"const p = require\\('./package.json'\\); console.log\\('next:', p.dependencies.next, 'tailwind:', p.devDependencies.tailwindcss\\)\")",
+      "Bash(node -e \"const n = require\\('./node_modules/next/package.json'\\); console.log\\('next version:', n.version\\)\")",
+      "Bash(xargs grep:*)",
+      "Bash(npm test:*)",
+      "Bash(xargs cat:*)",
+      "Bash(grep -o '<style[^>]*>.\\\\{0,200\\\\}' .next/server/app/login.html)"
+    ]
+  }
+}
